@@ -1,0 +1,24 @@
+[project]
+name = "news-research-tool"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Nevivaghani",email = "nevivaghani793@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "langchain (>=0.3.21,<0.4.0)",
+    "langchain-community (>=0.3.20,<0.4.0)",
+    "faiss-cpu (>=1.10.0,<2.0.0)",
+    "sentence-transformers (>=4.0.1,<5.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "google-ai-generativelanguage (>=0.6.17,<0.7.0)",
+    "langchain-google-genai (>=2.1.2,<3.0.0)",
+    "streamlit (>=1.44.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
